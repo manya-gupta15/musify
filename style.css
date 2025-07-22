@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body
+{
+    background-color: antiquewhite;
+} 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+   
+    
+}
+ nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 55px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.container{
+        background-color: black;
+    color: white;
+    display: flex;
+   
+    width: 80%;
+    border: 20%;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+
+
+    background-image: url(young-positive-guy-casual-cloths-listening-music-un-headphones-against-purple-background-neon-light-concept-human-emotions-youth-music-banner_1028938-422600.jpg) ;
+}
+.bottom
+{ display: flex;
+   width: 100%;
+    background-color: black;
+    height: 120px;
+    justify-content: center;
+   align-items: center;
+   color: white;
+ position: fixed;
+   flex-direction: column;
+   bottom: 0;
+    
+}
+#myProgressbar
+{
+    width: 80vw;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+.card
+{
+    font-size: 12px;
+    
+}
+.songitemcontainer
+{
+    margin-top: 34x;
+}
+.songitem
+{
+height: 50px;
+display: flex;
+background-color: white;
+position: relative;
+color: black;
+justify-content: space-between;
+align-items: center;
+border-radius: 9px;
+margin: 27px ;
+width: 100%;
+
+}
+
+.songitem img{
+    width: 43px;
+    margin: 10px;
+
+    
+}
+.timestamp
+{
+    margin:0 23px;
+}
+.songlistplay
+{
+   display: flex;
+   align-items: center;
+justify-content: space-around;
+   
+}
+.brand
+{
+    display: flex;
+    align-items: center;
+}
+
+.icons
+{
+    padding-top: 0.2px;
+    cursor: pointer;
+    
+}
+#i1
+{
+    cursor: pointer;
+}
+/* Make the main play/pause button bigger */
+#masterPlay {
+    font-size: 40px;
+    margin: 0 15px;
+}
+
+/* Make next and previous a little larger too */
+#previous, #next {
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+/* Center-align and style the current song name */
+.songinfo {
+    font-size: 16px;
+    position:absolute;
+    font-family: 'Varela Round', sans-serif;
+ margin-top: 0px;
+ text-align: center;
+}
+#s1
+{
+    width: 100%;
+}
+.time-display {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 5px;
+    padding: 0 5px;
+}
